@@ -1,1 +1,19 @@
-p {border-style: dashed;}
+p {
+    border-style: dashed;
+}
+
+.nesting1 {
+    text-indent: 3%;
+    /* text-align: center; */
+    /* list-style-type: circle; */
+}
+
+.nesting2 {
+    list-style-type: square;
+    text-indent: 6%;
+}
+
+.nesting3 {
+    list-style-type: circle;
+
+}
