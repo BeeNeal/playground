@@ -85,3 +85,22 @@ button::after {
 	opacity: 0.05;
 	background-image: linear-gradient(-270deg, rgba(255,255,255,0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255,255,255,0.00) 100%);
 }
+
+footer {
+	background-image: url('thanksgivingMeal.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: whitesmoke;
+}
+
+/* recipe pages */
+
+#caesarSalad {
+	background-image: url('caesar_salad.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 100px%;
+	color: whitesmoke;
+}
