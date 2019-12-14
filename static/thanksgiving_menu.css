@@ -88,7 +88,7 @@ button::after {
 }
 
 footer {
-	background-image: url('thanksgivingMeal.jpg');
+	background-image: url('playground/static/thanksgivingMeal.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -109,4 +109,8 @@ footer {
 
 .groceryList {
 	padding: 30px;
+}
+
+#groceryLists {
+	background-image: url('clouds.jpg');
 }
