@@ -105,6 +105,7 @@ footer {
 	background-position: 100px%;
 	height: 100%;
 	color: gray;
+	padding: 50px;
 }
 
 .groceryList {
@@ -113,4 +114,14 @@ footer {
 
 #groceryLists {
 	background-image: url('clouds.jpg');
+}
+
+.recipeImages {
+	border-style: solid;
+	border-width: 5px;
+	border-color: whitesmoke;
+	border-radius: 5px;
+	height: 250px;
+	width: 275px;
+
 }
