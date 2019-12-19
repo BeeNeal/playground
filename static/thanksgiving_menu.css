@@ -88,11 +88,13 @@ button::after {
 }
 
 footer {
-	background-image: url('playground/static/thanksgivingMeal.jpg');
+	background-image: url('../static/thanksgivingMeal.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	color: whitesmoke;
+	margin: 0 auto;
+	text-align: right;
 }
 
 /* recipe pages */
@@ -124,4 +126,18 @@ footer {
 	height: 250px;
 	width: 275px;
 
+}
+
+#paypalDonation {
+	margin: 0 auto;
+	width: 320px;
+	height: 80px;
+	background-color: peachpuff;
+	padding: 20px;
+	border-radius: 5%
+}
+
+#paypalButton {
+	text-align: center;
+	padding: 10px;
 }
