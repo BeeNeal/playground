@@ -80,7 +80,7 @@ button::after {
 	left: 50%;
 	transform: translateX(-50%);
 	width: calc(100% - 7.5rem);
-	background: #fff;
+	background: rgb(14, 9, 9);
 	border-radius: 100%;
 	
 	filter: blur(1px);
@@ -97,7 +97,13 @@ footer {
 	margin: 0 auto;
 	text-align: right;
 }
-
+.housingDiv {
+	background-image: url('clouds.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 100px%;
+}
 /* recipe pages */
 
 #caesarSalad {
@@ -144,10 +150,15 @@ footer {
 }
 
 #paypalDonation {
+	background-image: url('gold_gradient.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 100px%;
 	margin: 0 auto;
 	width: 320px;
 	height: 80px;
-	background-color: peachpuff;
+	/* background-color: peachpuff; */
 	padding: 20px;
 	border-radius: 5%
 }
